@@ -2,13 +2,13 @@
 name: CI/CD Básico da API da Fatec
 
 # Eventos que disparam este workflow
-#on:
-#  push:
-#    branches:
-#      - main  # Executa sempre que houver um push na branch 'main'
-#  pull_request:
-#    branches:
-#      - main  # Executa sempre que um Pull Request for aberto para a branch 'main'
+on:
+  push:
+    branches:
+      - main  # Executa sempre que houver um push na branch 'main'
+  pull_request:
+    branches:
+      - main  # Executa sempre que um Pull Request for aberto para a branch 'main'
 
 # Definição dos jobs
 jobs:
