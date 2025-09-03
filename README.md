@@ -20,7 +20,9 @@ Após o build e implantação do projeto, o render irá disponibilizar uma URL p
 > Agora qualquer alteração na branch main será automaticamente enviado para o Render
 
 ## Ativar PR Preview
-
+1. No Dashboard do projeto dentro do Render, clique no menu `Previews` 
+2. Em `Pull Request Previews` Clique em `Edit`
+3. Altere para `Automatic` e salve a alteração
 
 
 ##  Contribuindo para o projeto
