@@ -39,7 +39,7 @@ jobs:
           echo "    Iniciando a etapa de BUILD do Maven..."
           echo "=========================================="
           echo " Use o comando -DskipTests para pular os testes"
-          mvn clean package -DskipTests
+          mvn clean package
           echo "=========================================="
           echo "    BUILD do Maven concluído!"
           echo "=========================================="
