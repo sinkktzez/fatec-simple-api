@@ -18,6 +18,6 @@ public class DisciplinaController {
     @Operation(summary = "Lista todas as disciplinas", description = "Retorna uma lista fixa de nomes de disciplinas.")
     public List<String> getDisciplinas() {
         // Retornando um vetor (lista) simples de nomes
-        return Arrays.asList("Gestão Ágil de Projetos de Software", "Algoritmo e Lógica de Programação", "Inglês I");
+        return Arrays.asList("Gestão Ágil de Projetos de Software", "Algoritmo e Lógica de Programação", "Inglês I", "Inglês II");
     }
 }
